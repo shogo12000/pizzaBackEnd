@@ -13,7 +13,8 @@ app.use(cookieParser());
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
-  'https://front-end-login-two.vercel.app'
+  'https://front-end-login-two.vercel.app',
+  'https://pizza-front-git-main-shogo12000s-projects.vercel.app'
 ];
 
 app.use(cors({
